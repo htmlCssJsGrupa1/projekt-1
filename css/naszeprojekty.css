@@ -1,0 +1,97 @@
+/*
+
+    font-family: 'Audiowide', cursive;
+
+    font-family: 'Arima Madurai', cursive;
+
+    font-family: 'Changa', sans-serif;
+
+*/
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: inherit;
+}
+html{
+     box-sizing: border-box;
+     background: #292929;
+}
+body{
+      font-family: 'Changa', sans-serif;
+     max-width: 1000px;
+     margin: 0 auto;
+     background: #fff;
+     color#333;
+     font: 18px;
+}
+.slider{
+     display:flex;
+     justify-content: center;
+     align-items: center;
+     height: 400px;
+     background-color: #2b85bb;
+}
+.main{
+     padding: 15px;
+     line-height: 1.5;
+     text-align: justify;
+}
+.nav{
+     background: #f10000;
+     color: #ffffff;
+}
+.nav ul{
+     background-color: #c21010;
+     list-style: none;
+     display: flex;
+     text-align: center;
+}
+@media screen and (max-width:700px) {
+     .nav ul{
+          flex-direction: column;
+     }
+}
+.nav li {
+     flex: 1;
+}
+.nav a{
+     text-decoration: none;
+     color: #fff;
+     display: block;
+     padding: 20px;
+     font-weight: bold;
+     transition: background .1s;
+}
+nav a:hover{
+     background: #fc0000;
+}
+ul>li{
+     height: 60px;
+}
+ul>li>ol{
+     list-style: none;
+     padding: 0;
+     margin: 0;
+     height: 60px;
+     display: none;
+}
+ul>li:hover>ol{
+     display:block;
+}
+ul>li>ol>li{
+     background-color: #c21010;
+     position: relative;
+     z-index: 300;
+     border-top: 1px dashed #690c0c;
+}
+.footer{
+     background-color: #292929;
+     color: #fff;
+     text-align: center;
+     padding: 20px;
+     letter-spacing: 1px;
+}
+h2{
+     text-align: center;
+     padding: 20px;
+}
