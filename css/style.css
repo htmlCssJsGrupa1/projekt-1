@@ -35,6 +35,11 @@ body{
      padding: 15px;
      line-height: 1.5;
      text-align: justify;
+     margin-right: 20px;
+     margin-left: 20px;
+     margin-top: 10px;
+     margin-bottom: 10px;
+     font-size: 20px;
 }
 .nav{
      background: #f10000;
@@ -90,4 +95,20 @@ ul>li>ol>li{
      text-align: center;
      padding: 20px;
      letter-spacing: 1px;
+}
+h2{
+     text-align: center;
+     padding: 30px;
+}
+.avatar{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+img{
+     margin-bottom: 10px;
+     margin-top: 10px;
+}
+.description{
+     font-family: 'Changa', sans-serif;
 }
